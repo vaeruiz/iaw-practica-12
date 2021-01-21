@@ -12,7 +12,7 @@ A continuación veremos una lista de AMIs de diferentes lugares, cuando hayamos 
 
 Cuando estemos creando la instancia tenemos que asegurarnos de que la máquina va a tener los puertos **22 (SSH)**, **80 (HTTP)**, y **443 (HTTPS)**.
 
-## 
+## Acceso a la máquina y sitios web
 Después de esto podremos iniciar nuestra instancia. Con ella en funcionamiento, necesitamos el usuario y contraseña que está usando la máquina para poder conectarnos a ella, para saber esto tenemos que seleccionar nuestra máquina e ir a la pestaña **Acciones** > **Monitoreo y solución de problemas** > **Obtener registros del sistema**
 
 Al entrar en esta opción, se nos abrirá una nueva  pestaña en la que veremos una consola que nos mostrará la contraseña que se ha creado para el usuario y el nombre del usuario, estos parámetros cambian cada vez que se utiliza una nueva AMI.
