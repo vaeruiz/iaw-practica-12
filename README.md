@@ -8,7 +8,7 @@ Para empezar, tenemos que ir a la página web de Bitmani y entrar en el stack de
 
 Dentro tenemos varias opciones para escoger, seleccionamos la opción **On the cloud** > **Single-Tier**.
 
-A continuación veremos una lista de AMIs de diferentes lugares, cuando hayamos decidido cual utilizar, pulsamos en el enlace que hay al lado y nos llevará a la página de AWS para montar la máquina.
+A continuación veremos una lista de AMIs de diferentes lugares, cuando hayamos decidido cual utilizar, pulsamos en el enlace que hay al lado y nos llevará a la página de AWS para montar la máquina (previamente hay que tener la sesión de AWS iniciada y estar en el panel de control de EC2).
 
 Cuando estemos creando la instancia tenemos que asegurarnos de que la máquina va a tener los puertos **22 (SSH)**, **80 (HTTP)**, y **443 (HTTPS)**.
 
