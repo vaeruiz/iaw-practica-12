@@ -17,7 +17,12 @@ Después de esto podremos iniciar nuestra instancia. Con ella en funcionamiento,
 
 Al entrar en esta opción, se nos abrirá una nueva  pestaña en la que veremos una consola que nos mostrará la contraseña que se ha creado y el nombre del usuario de la máquina, estos parámetros cambian cada vez que se utiliza una nueva AMI.
 
-Si accedemos a la dirección IP o DNS públicos de nuestra AMI podremos ver la ventana de instalación de Wordpress.
+![img1](/img/img1.png)
+
+
+Si accedemos a la dirección IP o DNS públicos de nuestra AMI podremos ver la ventana de inicio de sesión para el administrador de Wordpress.
+
+![img2](/img/img2.png)
 
 # Túnel SSH para el acceso a phpMyAdmin
 
@@ -27,6 +32,10 @@ Para tener una administración total de la base de datos de Wordpress nos podemo
 
 Con esto lo que hacemos es enlazar el puerto 80 del servidor al puerto 8888 de nuestra máquina y la dirección localhost (127.0.0.1), de esta manera, si accedemos al navegador y escribimos 127.0.0.1:8888 podremos acceder al login de phpMyAdmin de nuestro servidor a través del túnel que hemos creado.
 
+![img3](/img/img3.png)
+
 En este caso las credenciales de inicio de sesión son el usuario root y la clave que nos ha asignado el sistema en el momento en el que se ha creado la instancia de Bitnami.
+
+![img4](/img/img4.png)
 
 De esta forma podemos utilizar una AMI para crear nuestro sitio de Wordpress y poder administrarlo con las herramientas necesarias.
